@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityRegister">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="121dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Registration"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="339dp"
+        android:layout_height="407dp"
+        android:background="@drawable/bg_button"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="84dp"
+            android:background="@drawable/bg_form"
+            android:drawableStart="@drawable/person"
+            android:ems="10"
+            android:fontFamily="@font/cantarell"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:text="Name"
+            android:textColor="#410909"
+            android:textColorLink="#3F51B5"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_form"
+            android:drawableStart="@drawable/key"
+            android:ems="10"
+            android:fontFamily="@font/cantarell"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#410909"
+            android:textColorHint="#410909"
+            android:textColorLink="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextTextconvirmPassword"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_form"
+            android:drawableStart="@drawable/key"
+            android:ems="10"
+            android:fontFamily="@font/cantarell"
+            android:gravity="center_vertical"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="#410909"
+            android:textColorHint="#410909"
+            android:textColorLink="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="169dp"
+        android:layout_height="53dp"
+        android:background="@drawable/bg_button"
+        android:shadowColor="#00796B"
+        android:text="Register"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+</androidx.constraintlayout.widget.ConstraintLayout>

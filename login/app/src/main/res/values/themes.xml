@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Login" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="buttonstyle1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="colorButtonNormal">@color/green</item>
+    </style>
+</resources>
